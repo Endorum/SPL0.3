@@ -1,0 +1,9 @@
+﻿  INTERPRETER.cpp
+  SPL0.3.cpp
+  Code wird generiert.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\alexa\source\repos\SPL0.3\SPL0.3\LEXER.cpp(223): warning C4715: "Lexer::makeOperator": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexa\source\repos\SPL0.3\SPL0.3\LEXER.cpp(273): warning C4715: "Lexer::getNextToken": Nicht alle Codepfade geben einen Wert zurück.
+  All 437 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  SPL0.3.vcxproj -> C:\Users\alexa\source\repos\SPL0.3\x64\Release\SPL0.3.exe

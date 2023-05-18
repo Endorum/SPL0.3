@@ -1,0 +1,91 @@
+
+
+
+
+
+
+"CONST" :: int/float/char/string/__ret
+<"CONST <type:i/f/c/s>","value">
+
+
+"IDENT" :: string[0] == alpha() i>0 alnum()
+<"IDENT","name">
+
+
+
+"OPERATOR" :: 
+    Arithmetic
+    + - * / % ++ -- 
+    Logic
+    > < == 
+    
+"SEPERATOR"
+    (){}[], : :: ;
+
+"SPECIAL"
+    # new var
+    (= assigment)
+    @ loop
+    ? if statement
+    '' character
+    "" string
+
+"KEYWORD" 
+fn, 
+<- (return), 
+iPrint,fPrint,cPrint,sPrint,
+-> (call) 
+__ret (global return value)
+
+Syntax:::
+
+Variables:
+
+new var:
+
+    make var object
+    push var to varstack<var>
+
+  #<ident> 
+| #<ident> = <const>
+| #<ident> = <ident>
+| #<ident> = <ident>[<const>] <- string indexing
+| #<ident> = <ident>[<ident>] <- string indexing
+| #<ident> = __ret <- standart return value
+| #<ident> = 
+
+variable arithemtic and assignment
+
++-*/%= are logical but everything else is possible but won't do a thing
+<ident> <operator> <const>
+<ident> <operator> <ident>
+<ident> <operator> <ident>[<const>]
+<ident> <operator> <ident>[<ident>]
+
+printing variables
+
+print <const> nl
+print <ident> nl
+
+functions:
+
+decleration:
+
+fn <ident> ( <ident> , <ident>  , ... ) {
+    -Body-
+    <- <ident/nothing>
+}
+
+calling:
+
+-> <ident> ( <ident/const> , <ident/const> , ....) // <- pos of ) is ret pos
+__RET // <- holds return value in const char *
+
+logic:
+
+(<ident/const> <operator:"< > =" > <ident/const>)
+
+if statements:
+
+  (<ident/const> <operator> <ident/const>) ? {do this part when true} : {do this part when false}
+| (<ident/const> <operator> <ident/const>) ? {do this part when true} ...just continue bro

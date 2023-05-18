@@ -1,0 +1,72 @@
+[+] - write example code
+[+] - write IDEA.txt file
+
+[+] - read files and combine to one big ass string
+
+
+ 
+[+] - make Lexer
+	[+] - printToken
+	[+] - make number tokens
+	[+] - make identifier tokens
+	[+] - make character
+
+	[+] - operators
+	[+] - seperators
+	[+] - special chars
+
+	[+] - comments
+
+	[+] - symbol table (vars and functions)
+
+	[+] - functionality check
+	
+	[+] - make header file
+
+[ ] - make interpreter
+
+	[+] - translate tokens to nodes
+
+	[+] - handle variables
+		[+] - declerations with start value
+			[+] - declerations with indexed string
+
+		[+] - arithmetic with const/other variables
+			[+] - append strings/chars to string/char
+
+		[+] - print variables
+	
+	[+] - handle functions
+		[+] - function struct with start and end
+		[+] - find start and end of functions
+		[+] - declare scope
+		[+] - use stack (so far only for the pc)
+
+		IMPORTANT:
+		all variables are global (for now)
+
+		[+] - redo decleration
+		[+] - redo call
+		[+] - redo return
+	
+		[+] - interpretScope()
+
+		[+] - make calls
+			[+] - pass arguments (as values only!)
+			[+] - run it by usinge interpretScope(fn)
+
+		[+] - nested calls now possible yay
+
+
+	[+] - logical comparinsons
+		[+] - detect statemtn
+		[+] - setting result global as BooleanValue
+
+
+	[ ] - handle if statements
+		[+] - find if
+		[+] - check synatx
+		
+		--execute the code in {true}:{false}
+		(prolly as temporary functions)
+

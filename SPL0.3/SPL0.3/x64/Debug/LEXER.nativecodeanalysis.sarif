@@ -1,0 +1,317 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 7,
+                  "endLine": 152,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::makeChar",
+                  "decoratedName": "?makeChar@Lexer@@QEAAPEAUToken@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 13,
+                  "endLine": 153,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::makeChar",
+                  "decoratedName": "?makeChar@Lexer@@QEAAPEAUToken@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 24,
+                  "endLine": 157,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::makeChar",
+                  "decoratedName": "?makeChar@Lexer@@QEAAPEAUToken@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 8,
+                  "endLine": 179,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::makeOperator",
+                  "decoratedName": "?makeOperator@Lexer@@QEAAPEAUToken@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 14,
+                  "endLine": 180,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::makeOperator",
+                  "decoratedName": "?makeOperator@Lexer@@QEAAPEAUToken@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 8,
+                  "endLine": 195,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::makeOperator",
+                  "decoratedName": "?makeOperator@Lexer@@QEAAPEAUToken@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 14,
+                  "endLine": 196,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::makeOperator",
+                  "decoratedName": "?makeOperator@Lexer@@QEAAPEAUToken@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 252,
+                  "startColumn": 8,
+                  "endLine": 252,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::getNextToken",
+                  "decoratedName": "?getNextToken@Lexer@@QEAAPEAUToken@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 9,
+                  "endLine": 275,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::lex",
+                  "decoratedName": "?lex@Lexer@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+                },
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 15,
+                  "endLine": 276,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Lexer::lex",
+                  "decoratedName": "?lex@Lexer@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/alexa/source/repos/SPL0.3/SPL0.3/LEXER.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3a18433091b520c1ee3d405e616765621bba857f999932a9cb120fb5f8c12410"
+          }
+        }
+      ]
+    }
+  ]
+}

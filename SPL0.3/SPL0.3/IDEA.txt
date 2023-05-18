@@ -1,0 +1,156 @@
+
+
+General things:
+
+use the stack:
+vector<Variable*> stack
+empl for functions and scope
+
+const = int/float/char/string/__ret/[<const/var>]
+
+---------------------------
+
+Variables:
+
+int/float/char/string /__ret /[<const/var>]
+
+all are just const char *
+(stoi/stof etc)
+
+strings can be indexed by [<const/var>]
+
+
+declearation:
+
+#<ident>
+|
+#<ident> = <startvalue>
+
+
+Arithmetic:
+
+<ident> <operator> <ident/const>
+expmpl
+y + 7
+x * y
+
+x = y
+
+--------------------------
+
+Functions:
+
+prolouge:
+push pc
+
+declerations of variables are pushed to the stack
+
+epilouge:
+check if stack is empty
+pop pc
+
+
+return value is global in Interpreter class
+in code is named __ret and is a const char pointer
+
+--------------------------
+
+Logic:
+
+if else statement
+(<ident/const> <operator> <ident/const>) 
+
+? {do this part when true} : {do this part when false} ...continue
+? {do this part when true} ...just continue bro
+
+--------------------------
+
+repetition:
+
+loop: // is actally just a function without a name
+
+if/loop -> boolean statement is global and so is the result
+
+(<ident/const> <operator> <ident/const>)
+
+@{
+
+}
+exmpl
+
+#a = 0
+#b = a
+
+(a < 45)
+@{
+	b = a
+	b*a
+	iPrint b
+	sPrint "hello world"
+	cPrint 10
+
+
+	a + 1
+}
+
+
+
+
+
+
+
+----------------------
+
+Lexer:
+
+Token:
+	const char * type
+	const char * value
+
+exmpl
+
+Token token{"IDENT i","var"}
+
+Token token{"CONST i","546"} <- the first character shows the type
+Token token{"CONST c","a"} <- the first character shows the type
+
+{"KEYWORD","while"}
+
+
+fn function(argOne, argTwo){
+	#x = argOne
+	#y = argTwo
+
+	x * x
+	y * y
+
+	#result = x
+	result + y
+
+	<- result
+}
+
+fn isMore(){
+
+	<- "great"
+}
+
+fn main(){
+	#a = 5
+	#b = 7
+
+	-> function(a,b)
+	#result = __RET
+
+	#test = "this is a string"
+	#char = 'c'
+
+	(a > b) ? isMore()
+
+	#c = 0
+	@(c < 45){
+		sPrint "a is less than b"
+		cPrint 10
+	}
+
+}
